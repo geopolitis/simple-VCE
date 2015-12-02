@@ -1,0 +1,7 @@
+{
+  "name": "appc1",
+  "chef_type": "node",
+  "json_class": "Chef::Node",
+  "chef_environment": "_default",
+  "run_list": [ "recipe[go]" ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "app",
+  "description": " Go http server",
+  "chef_type": "role",
+  "run_list": [ "go" ]
+}

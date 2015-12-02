@@ -1,0 +1,7 @@
+name 'go'
+maintainer 'George Politis'
+maintainer_email 'geo.politis@gmail.com'
+license 'all_rights'
+description 'Build and start go http server'
+long_description 'Build and start go http server '
+version '0.1.0'

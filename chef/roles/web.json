@@ -1,0 +1,6 @@
+{
+  "name": "web",
+  "description": " Reverse proxy",
+  "chef_type": "role",
+  "run_list": [ "nginx" ]
+}

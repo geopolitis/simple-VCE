@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+  network: 
+    - ["private_network", {ip: "10.0.0.20"}]
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[go::default]
+    attributes:
